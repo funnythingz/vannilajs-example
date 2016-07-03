@@ -1,0 +1,25 @@
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      ul li {
+        border: solid 1px #d7d8d9;
+        margin: 10px 0;
+        list-style: none;
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Gists of funnythingz</h1>
+    <div id="container"></div>
+    <script src="gists.js"></script>
+    <script src="https://api.github.com/users/funnythingz/gists?callback=App"></script>
+  </body>
+</html>
